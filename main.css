@@ -21,14 +21,14 @@ a {
     }
 
 #header { 
-    background: #f5f5f5; 
+    background: #f3f3f3; 
     font-family: 'Cousine', monospace;
     font-size: 14px;
     color: #1f1f1f; 
     }
     
 #footer { 
-    background: #f5f5f5; 
+    background: #f3f3f3; 
     font-family: 'Cousine', monospace;
     font-size: 14px; 
     line-height: 1.5; 
@@ -36,12 +36,25 @@ a {
     }
     
 #main { 
-    background: #f5f5f5; 
+    background: #f3f3f3; 
     font-family: 'Cousine', monospace;
     font-size: 14px; 
   /*text-align: justify;*/
     line-height: 1.5; 
     color: #3f3f3f; 
+    }
+
+#header img {
+    display: block;
+    width: 740px;
+    margin: 0;
+    padding: 0;
+    }
+#toppanel {
+    background: #ffffff;
+    margin: 0;
+    width: 750px;
+    padding: 5px;
     }
 
 .wrap     { 
@@ -59,8 +72,9 @@ a {
     position: relative; 
     }
 .center img { 
+    display: block;
     position: absolute;
-    max-height: 165px;
+    max-height:165px;
     max-width: 165px;
     top: 50%;
     left: 50%;
@@ -69,10 +83,11 @@ a {
 
 div.columns { 
     min-width: 800px; 
-    margin-top: 15px; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
     }
 div.columns div { 
-    height: 175px; 
+    height:175px ; 
     float: left;  
     }
 div.col11 { 
