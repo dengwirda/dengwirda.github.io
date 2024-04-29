@@ -34,19 +34,19 @@
        
                     <p>
     I'm a computational mathematics researcher, with a focus on geophysical fluid 
-    dynamics, ocean modelling and planetary climate simulation. My research interests 
+    dynamics, numerical methods and scientific computing. My research interests 
     include: high-order accurate finite-volume/difference methods for computational 
     fluid dynamics, general-circulation modelling and ocean dynamics, unstructured 
     mesh-generation and computational geometry.
                     </p>
    
-                    <p>
+                    <!--
     I'm a staff scientist in the Theoretical Division
     (<a href="https://www.lanl.gov/org/ddste/aldsc/theoretical/fluid-dynamics-solid-mechanics/index.php">T-3</a>) 
     at Los Alamos National Laboratory, contributing to the development of the Energy 
     Exascale Earth System Model (<a href="https://e3sm.org/">E3SM</a>), and ocean dynamics 
     in the Model for Prediction Across Scales (<a href="https://mpas-dev.github.io/">MPAS</a>).
-                    </p>
+                    -->
                     
                     <p>
     Sometimes I also work with my wife, artist <a href="http://saramorawetz.com">Sara Morawetz</a>, 
@@ -55,7 +55,7 @@
 
                     <br>
                     <p>
-    Contact: dengwirda [at] lanl [dot] gov
+    Contact: d [dot] engwirda [at] gmail [dot] com
                     </p>
        
        
@@ -157,6 +157,30 @@
   
                     <div class="columns">
                         <div class="col11 center">
+                        <img src="img/mpaso_roms.png" alt="" /></div>
+                        <div class="col22">
+    <p>Representation of Submesoscale Dynamics Using ROMS and MPAS-O
+    (K. Hinson, R. Hetland, D. Engwirda, K. Smith, 2024, in prep.)</p>
+    
+    <p>Understanding the effective resolution of MPAS-O and ROMS.</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="columns">
+                        <div class="col11 center">
+                        <img src="img/ml_tsu.png" alt="" /></div>
+                        <div class="col22">
+    <p>Machine learned reconstruction of tsunami dynamics from sparse observations
+    (E. McDugald, A. Mohan, D. Engwirda, J. Santos, 2024, in prep.)</p>
+    
+    <p>Using a transformer neural network to reconstruct tsunami propagation from DART buoy signals.</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="columns">
+                        <div class="col11 center">
                         <img src="img/QHM.png" alt="" /></div>
                         <div class="col22">
     <p>'Momentum'-type gradient descent for unstructured mesh optimisation
@@ -206,14 +230,67 @@
                     </div>
                     <div class="clear"></div>
 
+                    
+
+
+
+
+
+
+                    <br>
+                    <br>
+                    <h2>PUBLICATIONS</h2>
+                    <br>
+    
+                    <div class="columns">
+                        <div class="col11 center">
+                        <img src="img/irene.png" alt="" /></div>
+                        <div class="col22">
+    <p>Simulation of Compound Flooding using River-Ocean Two-way Coupled E3SM Ensemble on Variable-resolution Meshes
+    (D. Feng, Z. Tan, D. Engwirda, J. Wolfe, D. Xu, C. Liao, G. Bisht, J. Benedict, T. Zhou, H. Li, L. Leung, 2024. 
+    JAMES, to appear.)</p>
+    
+    <p>Understanding compound flooding during Hurricane Irene through multiscale coupling in E3SM.</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="columns">
+                        <div class="col11 center">
+                        <img src="img/RK(3,2)-FB.png" alt="" /></div>
+                        <div class="col22">
+    <p>CFL Optimized Forward–Backward Runge–Kutta Schemes for the Shallow-Water Equations
+    (J. Lilly, D. Engwirda, G. Capodaglio, R. Higdon, M. Petersen, 2023. 
+    Mon. Weather Rev., 151(12), 3191-3208.)
+    <br> <a href="https://doi.org/10.1175/MWR-D-23-0113.1">https://doi.org/10.1175/MWR-D-23-0113.1</a></p>
+    
+    <p>A new 3-stage Runge-Kutta scheme with optimal CFL bounds for the shallow water equations.</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="columns">
+                        <div class="col11 center">
+                        <img src="img/rof_b.png" alt="" /></div>
+                        <div class="col22">
+    <p>Topological Relationship‐Based Flow Direction Modeling: Stream Burning and Depression Filling
+    (C. Liao, T. Zhou, D. Xu, Z. Tan, G. Bisht, M. Cooper, D. Engwirda, H. Li, L. Leung, 2023. 
+    JAMES, 15(11), e2022MS003487.)
+    <br> <a href="https://doi.org/10.1029/2022MS003487">https://doi.org/10.1029/2022MS003487</a></p>
+    
+    <p>Optimal river representation and DEM preparation for unstructured hydrological modelling.</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
                     <div class="columns">
                         <div class="col11 center">
                         <img src="img/LTS.png" alt="" /></div>
                         <div class="col22">
     <p>Storm Surge Modeling as an Application of Local Time-stepping in MPAS-Ocean
-    (J. Lilly, G. Capodaglio, M. Petersen, S. Brus, D. Engwirda, R. Higdon, 2022. 
-    JAMES, in review.)
-    <br> <a href="https://arxiv.org/abs/2207.13643">https://arxiv.org/abs/2207.13643</a></p>
+    (J. Lilly, G. Capodaglio, M. Petersen, S. Brus, D. Engwirda, R. Higdon, 2023. 
+    JAMES, 15(1), e2022MS003327.)
+    <br> <a href="https://doi.org/10.1029/2022MS003327">https://doi.org/10.1029/2022MS003327</a></p>
     
     <p>Application of a spatially-refined time-stepping scheme for storm-surge modelling with MPAS-O.</p>
                         </div>
@@ -225,28 +302,37 @@
                         <img src="img/ISC.png" alt="" /></div>
                         <div class="col22">
     <p>Barotropic Tides in MPAS-Ocean: Impact of Ice Shelf Cavities
-    (N. Pal, K. Barton, M. Petersen, S. Brus, D. Engwirda, B. Arbic, A. Roberts, J. Westerink, D. Wiraset, 2022. 
-    Geosci. Model Dev., in review.)
-    <br> <a href="https://doi.org/10.5194/gmd-2022-188">https://doi.org/10.5194/gmd-2022-188</a></p>
+    (N. Pal, K. Barton, M. Petersen, S. Brus, D. Engwirda, B. Arbic, A. Roberts, J. Westerink, D. Wiraset, 2023. 
+    Geosci. Model Dev., 16(4), 1297-1314.)
+    <br> <a href="https://doi.org/10.5194/gmd-16-1297-2023">https://doi.org/10.5194/gmd-16-1297-2023</a></p>
     
     <p>Understanding the impact of ice-shelf geometry on global barotropic tides with MPAS-O.</p>
                         </div>
                     </div>
                     <div class="clear"></div>
 
-
-                    <br>
-                    <br>
-                    <h2>PUBLICATIONS</h2>
-                    <br>
+                    <div class="columns">
+                        <div class="col11 center">
+                        <img src="img/rof_a.png" alt="" /></div>
+                        <div class="col22">
+    <p>Topological Relationship‐Based Flow Direction Modeling: Mesh‐Independent River Networks Representation
+    (C. Liao, T. Zhou, D. Xu, M. Cooper, D. Engwirda, H. Li, L. Leung, 2023. 
+    JAMES, 15(2), e2022MS003089.)
+    <br> <a href="https://doi.org/10.1029/2022MS003089">https://doi.org/10.1029/2022MS003089</a></p>
     
+    <p>Capturing the topology of river systems for unstructured hydrological models.</p>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+
                     <div class="columns">
                         <div class="col11 center">
                         <img src="img/SAL.png" alt="" /></div>
                         <div class="col22">
     <p>Scalable self attraction and loading calculations for unstructured ocean models 
     (S. Brus, K. Barton, N. Pal, A. Roberts, D. Engwirda, M. Petersen, B. Arbic, D. Wirasaet, J. Westerink, 
-    M. Schindelegger, 2022. Ocean Modelling, to appear.)</p>
+    M. Schindelegger, 2023. Ocean Modelling, 182, 102160.)
+    <br> <a href="https://doi.org/10.1016/j.ocemod.2023.102160">https://doi.org/10.1016/j.ocemod.2023.102160</a></p>
     
     <p>A highly scalable unstructured self-attraction and loading formulation for tides modelling in MPAS-O.</p>
                         </div>
@@ -653,7 +739,7 @@
             <div class="wrap">
     
             <br>
-            <p class="site-footline">All Content Copyright © 2017-2022 Darren Engwirda</p>
+            <p class="site-footline">All Content Copyright © 2017-2024 Darren Engwirda</p>
             <br>
     
             </div><!--.wrap-->
